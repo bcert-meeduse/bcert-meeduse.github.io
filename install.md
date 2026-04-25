@@ -10,17 +10,20 @@ toc: false
 - Donwload <a href="https://www.eclipse.org/downloads/packages/release/2025-12/r/eclipse-modeling-tools" target="_blank">**Eclipse Modeling Tools**</a>
 - Be sure that your Eclipse is be equipped with **Java 17** (or later)
 - Install Xtext via the marketplace **Help → Eclipse Marketplace... → Xtext**
+- Install Acceleo via the marketplace **Help → Eclipse Marketplace... → Acceleo**
 
 {% include callout.html content="We recommend using the latest **Eclipse Modeling** distribution." type="primary" %} 
 
 
 ## Update sites
 
+
 BCerT depends on <a href="https://vasco.imag.fr/tools/meeduse/" target="_blank" rel="noopener">Meeduse</a> and <a href="http://vasco.imag.fr/tools/b4msecure/" target="_blank" rel="noopener">B4MSecure</a>.   These two dependencies must be installed.
 
-- **B4MSecure** update site: `http://vasco.imag.fr/tools/b4msecure/updates/build`
-- **Meeduse** update site: `http://vasco.imag.fr/tools/meeduse/updates/build`
+- **B4MSecure** update site: `https://bcert-meeduse.github.io/b4msecure/build/`
+- **Meeduse** update site: `https://bcert-meeduse.github.io/meeduse/build/`
 - **BCerT** update site: `https://bcert-meeduse.github.io/build`
+
 
 ## Installation details
 
