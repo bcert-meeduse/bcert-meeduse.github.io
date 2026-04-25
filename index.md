@@ -9,6 +9,10 @@ toc: false
 **BCerT** is an Eclipse-based MDE tool dedicated to the formal specification, verification, and execution of **model-to-model transformations** and **grammar-to-grammar transpilers** using the B method. It supports transformations for **Ecore metamodels** and **Xtext grammars**. 
 
 {% include note.html content="The public version of BCerT currently supports **Classical B** as well as the **B System** dialect of **Event-B** used in Atelier B. The integration of the Rodin format of Event-B is under experimentation and will be available in a future release." %}
+
+{% include callout.html content="Akram Idani, German Vega. Engineering Verified Model Transformations through a Proof-Based Language Workbench. ACM SIGPLAN International Conference on Software Language Engineering (SLE'2026). Accepted for publication.
+" type="danger" %}
+
 <center>
 <img src="{{ "/images/bcert-architecture.svg" | relative_url }}">
 </center>
