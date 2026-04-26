@@ -65,3 +65,6 @@ entries:
         - title: UML to B transpiler
           url: /u2bcert.html
           output: web
+        - title: Artifacts for SLE 2026
+          url: /sle2026.html
+          output: web
