@@ -84,7 +84,7 @@ For each generated `.genmodel` file (`Families.genmodel` and `Persons.genmodel`)
 
 This step generates the EMF editing support required by BCerT.
 
-{% include image.html file="genmodel.png" max-width="850"%}
+{% include image.html file="genmodel.png" max-width="850"%}  
 
 
 {% include tip.html content="Make sure you have done these steps for both DSLs." %}
