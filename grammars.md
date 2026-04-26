@@ -38,7 +38,29 @@ Edit the `.xtext` file located in the project.
 
 {% include image.html file="xtext.png" max-width="850"%}
 
+<pre>
+FamilyModel:{FamilyModel}
+	families+=Family*;
+Family:
+	'Family' lastName=ID '{'
+		  ('Mother' theMother=Member)?
+		  ('Father' theFather=Member)?
+		  ('Daughters' (daughters+=Member)+)?
+		  ('Sons' (sons+=Member)+)?
+	'}';
+Member : firstName=ID ;
+</pre>
+
+<pre>
+PersonModel:{PersonModel}
+	  persons+=Person*;
+Person: Male | Female ;
+Male : 'Male' (name+=ID)+ ;
+Female : 'Female' (name+=ID)+ ;
+</pre>
+
 {% include tip.html content="Make sure the axiom of your output grammar creates a root model element (e.g. PersonModel:{PersonModel}). BCerT uses this root element as the entry point when generating output models." %}
+
 
 
 ## Step 3 — Generate the Xtext artifacts
@@ -54,7 +76,7 @@ These files are created in the folder: `model/generated`
 
 The `.ecore` file represents the meta-model derived from the grammar, while the `.genmodel` file is used to generate the EMF infrastructure.
 
-For each generated `.genmodel` file:
+For each generated `.genmodel` file (`Families.genmodel` and `Persons.genmodel`):
 
 1. Open the file
 2. Right-click on the **root element** of the file
@@ -63,3 +85,6 @@ For each generated `.genmodel` file:
 This step generates the EMF editing support required by BCerT.
 
 {% include image.html file="genmodel.png" max-width="850"%}
+
+
+{% include tip.html content="Make sure you have done these steps for both DSLs." %}
