@@ -10,12 +10,15 @@ toc: false
 
 {% include note.html content="The public version of BCerT currently supports **Classical B** as well as the **B System** dialect of **Event-B** used in Atelier B. The integration of the Rodin format of Event-B is under experimentation and will be available in a future release." %}
 
-{% include callout.html content="Akram Idani, German Vega. Engineering Verified Model Transformations through a Proof-Based Language Workbench. ACM SIGPLAN International Conference on Software Language Engineering (SLE'2026). Accepted for publication.
-" type="danger" %}
-
 <center>
 <img src="{{ "/images/bcert-architecture.svg" | relative_url }}">
 </center>
+
+## Papers
+
+- Akram Idani, German Vega. *Engineering Verified Model Transformations through a Proof-Based Language Workbench*. ACM SIGPLAN International Conference on Software Language Engineering (SLE'2026). Accepted long paper.
+
+- Akram Idani, *Transpilation Meets the B Method*. Festschrift in Honor of Jean-Raymond Abrial, edited by Egon Börger and Yamine Aït Ameur. Accepted book chapter.
 
 ## Features
 
