@@ -1,11 +1,11 @@
 ---
-keywords: BCerT, B, certification, model transformation, transpiler
+title: "BCerT"
+description: "BCerT is an Eclipse-based MDE tool for the formal specification, verification, and execution of model-to-model transformations and grammar-to-grammar transpilers using the B Method."
+keywords: BCerT, B Method, Event-B, certification, model transformation, model-to-model transformation, grammar-to-grammar transpiler, Meeduse, EMF, Xtext
 sidebar: mydoc_sidebar
 permalink: index.html
 toc: false
 ---
-<img src="{{ "images/BCertComplet.png" }}" class="logo"/>
-
 **BCerT** is an Eclipse-based MDE tool dedicated to the formal specification, verification, and execution of **model-to-model transformations** and **grammar-to-grammar transpilers** using the B method. It supports transformations for **Ecore metamodels** and **Xtext grammars**. 
 
 {% include note.html content="The public version of BCerT currently supports **Classical B** as well as the **B System** dialect of **Event-B** used in Atelier B. The integration of the Rodin format of Event-B is under experimentation and will be available in a future release." %}
