@@ -68,3 +68,6 @@ entries:
         - title: Artifacts for SLE 2026
           url: /sle2026.html
           output: web
+        - title: The Families to Persons Case (TTC 2026)
+          url: /ttc2026.html
+          output: web
