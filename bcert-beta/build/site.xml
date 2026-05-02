@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/fr.meeduse.bcert_1.0.0.202605011636.jar" id="fr.meeduse.bcert" version="1.0.0.202605011636">
+   <feature url="features/fr.meeduse.bcert_1.0.0.202605012028.jar" id="fr.meeduse.bcert" version="1.0.0.202605012028">
       <category name="BCerT"/>
    </feature>
    <category-def name="BCerT" label="BCerT">
