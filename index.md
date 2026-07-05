@@ -16,7 +16,7 @@ toc: false
 
 ## Papers
 
-- Akram Idani, German Vega. *Engineering Verified Model Transformations through a Proof-Based Language Workbench*. ACM SIGPLAN International Conference on Software Language Engineering (SLE'2026). Accepted long paper.
+- Akram Idani, German Vega. *Engineering Verified Model Transformations through a Proof-Based Language Workbench*. ACM SIGPLAN International Conference on Software Language Engineering (SLE'2026). <a href="https://dl.acm.org/doi/10.1145/3806383.3815523">ACM Open Access</a>.
 
 - Akram Idani, *Transpilation Meets the B Method*. Festschrift in Honor of Jean-Raymond Abrial, edited by Egon Börger and Yamine Aït Ameur. Accepted book chapter.
 
